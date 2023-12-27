@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none ;
+    height: 9vh;
+    background-color: black;
+}
+nav ul li{
+    padding: 0px 1rem;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    
+    height: 8vh;
+    padding: 0 0.7rem;
+}
+.container{
+    min-height: 75vh;
+    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("Acessories/bg1.jpg") ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    position: sticky;
+    height: 18vh;
+    background-color: rgb(168, 162, 162);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+.icons{
+    margin-top: 1%;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 34%;
+    color: black;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.songcontainer span, .songlistplay{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+
+}
+.songItem img{
+    width: 43px;
+    margin-left: 16px;
+    border-radius: 34px;
+
+}
+.songItem i{
+    cursor: pointer;
+
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-right: 24px;
+}
